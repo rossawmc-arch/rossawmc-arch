@@ -1,0 +1,6 @@
+7.Hiyerarşik kalıtımı örnekle açıklayınız.
+
+public class Canli { //... }
+public class Hayvan : Canli { //... }
+public class Kopek : Hayvan { //... }
+public class Kangal : Kopek { //... }
