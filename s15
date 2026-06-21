@@ -4,11 +4,11 @@ void Mod(int sayi)
 {
     if (sayi % 2 == 0)
     {
-        MessageBox.Show("sayi Çiftir");
+        MessageBox.Show("Sayı Çift");
     }
     else
     {
-        MessageBox.Show("sayi Tektir");
+        MessageBox.Show("Sayı Tek");
     }
 }
 
