@@ -1,0 +1,19 @@
+15. Klavyeden girilen sayı tek mi / çift mi bulan programı geri dönüşümsüz metot kullanarak yazınız.
+
+void Mod(int sayi)
+{
+    if (sayi % 2 == 0)
+    {
+        MessageBox.Show("sayi Çiftir");
+    }
+    else
+    {
+        MessageBox.Show("sayi Tektir");
+    }
+}
+
+private void Button_Click(object sender, RoutedEventArgs e)
+{
+    int s = Convert.ToInt32(sayi_text.Text);
+    Mod(s);
+}
