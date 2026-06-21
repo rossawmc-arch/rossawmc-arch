@@ -1,0 +1,135 @@
+
+1. Soru:
+
+4 MB kaç KB eder? 1 Byte kaç Bit eder?
+
+Cevap:
+4 MB = 4096 KB
+1 Byte = 8 Bit
+
+2. Soru:
+
+Sanayi devriminin başlamasına sebep olan keşif ve gelişmeler nelerdir?
+
+Cevap:
+Buharlı makinelerin keşfi ve ardından sanayileşmenin başlamasıdır.
+
+3. Soru:
+
+Türkiye’de devlet tarafından sunulan e-hizmetlere iki örnek veriniz.
+
+Cevap:
+e-Devlet, e-Nabız, MHRS, e-Okul
+
+4. Soru:
+
+Dijital dönüşüm nedir?
+
+Cevap:
+İş ve işlemlerin internet üzerinden yapılabilir hale gelmesine dijital dönüşüm denir.
+
+5. Soru:
+
+PS/2 ve HDMI portları nedir?
+
+Cevap:
+PS/2: Klavye ve fare bağlanır.
+HDMI: Ses ve görüntüyü aynı anda aktarır.
+
+6. Soru:
+
+VGA, HD, 4K, UHD standartlarını büyükten küçüğe sıralayınız.
+
+Cevap:
+4K > UHD > HD > VGA
+
+7. Soru:
+
+Hiyerarşik kalıtımı örnekle açıklayınız.
+
+Cevap:
+
+public class Canli { }
+
+public class Hayvan : Canli { }
+
+public class Kopek : Hayvan { }
+
+public class Kangal : Kopek { }
+
+
+8. Soru:
+
+Soyut sınıf (abstract class) nedir?
+
+Cevap:
+Ortak özellikleri olan sınıfları bir çatı altında toplamak için kullanılır ve abstract anahtar kelimesi ile tanımlanır.
+
+9. Soru:
+
+SSD sürücülerin en büyük avantajı nedir?
+
+Cevap:
+SSD’ler HDD’lere göre çok daha hızlıdır.
+
+10. Soru:
+
+İki adet monitör çeşidi yazınız.
+
+Cevap:
+LCD ve CRT
+
+11. Soru:
+
+Windows işletim sisteminde kullanılan hesap türleri nelerdir?
+
+Cevap:
+Yönetici ve Misafir
+
+12. Soru:
+
+Bilgisayar ağlarının kullanım amacı nedir?
+
+Cevap:
+Bilgisayarlar arasında veri paylaşımı ve iletişim sağlamak için kullanılır.
+
+13. Soru:
+
+LAN nedir?
+
+Cevap:
+Yerel alan ağıdır. Küçük bir alandaki bilgisayarların birbirine bağlanmasıdır.
+
+14. Soru:
+
+İki adet yazıcı türü yazınız.
+
+Cevap:
+Lazer yazıcı, 3D yazıcı
+
+15. Soru:
+
+Klavyeden girilen sayı tek mi çift mi bulan programı geri dönüşümsüz metot ile yazınız.
+
+Cevap:
+
+void Mod(int sayi)
+{
+    if (sayi % 2 == 0)
+    {
+        MessageBox.Show("Sayı Çift");
+    }
+    else
+    {
+        MessageBox.Show("Sayı Tek");
+    }
+}
+
+private void Button_Click(object sender, RoutedEventArgs e)
+{
+    int s = Convert.ToInt32(sayi_text.Text);
+    Mod(s);
+}
+
+
+
